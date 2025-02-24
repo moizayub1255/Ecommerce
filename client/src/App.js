@@ -30,6 +30,7 @@ import ReturnExchange from "./pages/returenExchange";
 import PaymentMethod from "./pages/PaymentMethod";
 import FAQs from "./pages/FAQs";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Service from "./pages/Service";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/category/:slug" element={<CategoryProduct />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/service" element={<Service />} />
 
         {/* Private User Dashboard Routes */}
         <Route path="/dashboard" element={<PrivateRoute />}>

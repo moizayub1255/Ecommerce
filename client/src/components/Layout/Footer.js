@@ -51,6 +51,9 @@ const Footer = () => {
                 <li className="pb-2">
                   <Link to="/policy">Privacy Policy</Link>
                 </li>
+                <li className="pb-2">
+                  <Link to="/service">Service</Link>
+                </li>
               </ul>
             </div>
             {/* Customer Service */}

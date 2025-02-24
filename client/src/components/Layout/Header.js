@@ -64,6 +64,11 @@ const Header = () => {
                   Products
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/service" className="nav-link">
+                  Service
+                </NavLink>
+              </li>
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
